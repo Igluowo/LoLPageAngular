@@ -1,10 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-pag-campeones',
   standalone: true,
-  imports: [ CommonModule ],
+  imports: [ 
+    CommonModule,
+    RouterLink
+ ],
   templateUrl: './pag-campeones.component.html',
   styleUrl: './pag-campeones.component.css'
 })

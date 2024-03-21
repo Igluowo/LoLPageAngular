@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { NavegadorComponent } from './Components/navegador/navegador.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { PagPrincipalComponent } from './Paginas/pag-principal/pag-principal.component';
@@ -13,6 +13,7 @@ import { PagPrincipalComponent } from './Paginas/pag-principal/pag-principal.com
     NavegadorComponent,
     FooterComponent,
     PagPrincipalComponent,
+    RouterLink
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
