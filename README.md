@@ -1,6 +1,6 @@
 # PaginaLol
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2. Este proyecto ha sido desarrollado utilizando Angular para poder prácticar más esta tecnología y por ello poder afianzarme más con el uso de Angular. También tiene como objetivo practicar las pruebas Junit y la del fronted con Cypress, además de hacer uso del gitflow para gestionarlo.
+This project has been developed using Angular version 17.2.2 in order to practice more with this technology and thus strengthen my skills with Angular. It also aims to practice JUnit tests and frontend testing with Cypress, as well as making use of Gitflow for its management.
 
 ## Development server
 
