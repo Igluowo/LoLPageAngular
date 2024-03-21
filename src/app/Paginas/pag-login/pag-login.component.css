@@ -1,0 +1,41 @@
+h1 {
+    background-color: rgb(75, 75, 75);
+    padding: 2%;
+    color: rgb(185, 185, 124);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    border-bottom: 1px solid black;
+}
+
+section {
+    padding: 15%;
+    padding-left: 24%;
+}
+
+article {
+    width: 80%;
+}
+
+form {
+    background-color: rgb(64, 64, 64);
+    text-align: center;
+    padding: 2%;
+    color: rgb(185, 185, 124);
+}
+
+label {
+    display: block;
+}
+
+input {
+    background-color: rgb(75, 75, 75);
+    color: rgb(185, 185, 124);
+}
+
+#enviar {
+    display: block;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 5%;
+    color: rgb(185, 185, 124);
+}

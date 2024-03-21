@@ -1,0 +1,85 @@
+header {
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+    border-color: rgb(255, 245, 245);
+    padding: 1% 1% 0 ;
+    border-bottom: solid 1px white;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+#Logo {
+    display: inline-block;
+    width: 10%;
+    margin-right: 2%;
+}
+
+#Logo img{
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 3%;
+}
+
+nav {
+    display: inline-block;
+    width: 70%;
+}
+
+#Navegador {
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Navegador-item {
+    display: inline-block;
+    list-style: none;
+    width: 10%;
+    font-size: 20px;
+}
+
+.Navegador-item a{
+    text-decoration: none;
+    color: white;
+    padding: 5% 30%;
+    border-radius: 5%;
+}
+
+.Navegador-item a img{
+    width: 30%;
+    height: 80%;
+}
+
+.Navegador-item a:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+#IniciarSesion {
+    margin-left: 3%;
+}
+
+#IniciarSesion a{
+    padding: 1% 3%;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+#IniciarSesion a:hover {
+    text-decoration: underline;
+    animation-name: gradient;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background: linear-gradient(to right, rgb(39, 39, 39) 0%, rgb(100, 100, 100) 100%);
+    }
+    100% {
+      background: linear-gradient(to right, rgb(100, 100, 100) 0%, rgb(39, 39, 39) 100%);
+    }
+}
