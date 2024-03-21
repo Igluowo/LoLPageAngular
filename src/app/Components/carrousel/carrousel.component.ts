@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-carrousel',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './carrousel.component.css',
   standalone: true,
   imports: [
-    CommonModule
+    CommonModule,
+    RouterLink
   ]
 })
 export class CarrouselComponent implements OnInit{

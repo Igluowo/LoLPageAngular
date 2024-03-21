@@ -4,7 +4,7 @@
     <div class="campeonesRecienteImagenes">
         <ng-container *ngFor="let campeon of seccion.campeones[0].campeonesDestacados">
             <ng-container *ngIf="!campeon.destacado">
-                <a href="html/IniciarSesion.html">
+                <a href="/login">
                     <figure class="campeonesReciente">
                             <img src={{campeon.imagen}} alt="">
                             <figcaption>{{campeon.nombre}}</figcaption>
@@ -16,7 +16,7 @@
     </div>
     <ng-container *ngFor="let campeon of seccion.campeones[0].campeonesDestacados">
         <ng-container *ngIf="campeon.destacado">
-            <a href="html/IniciarSesion.html">
+            <a href="/login">
                 <div class="campeonDestacadoImagen">
                     <figure class="campeonDestacado" >                           
                         <img src={{campeon.imagen}} alt="">
