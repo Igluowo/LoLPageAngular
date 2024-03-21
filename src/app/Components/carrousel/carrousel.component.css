@@ -1,0 +1,150 @@
+.Carrousel #iconoCampeon {
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    width: 20px;
+    height: 30px;
+    vertical-align: middle;
+    position: relative;
+    top: 0%;
+    right: -48.5%;
+    z-index: -5;
+}
+
+.Destacado {
+    width: 100%;
+    height: 80vh; 
+    z-index: -5;    
+    overflow: hidden;
+  }
+  
+.imagenes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 300%;
+    height: 100%;
+    z-index: -5;
+}
+  
+.imagenes img {
+    width: calc(100% / 3);
+    height: 100%;
+}
+  
+.carrousel-flechas {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+a.carrousel-flechas {
+    width: 5%;
+}
+
+.carrousel-flechas img {
+    width: 80%;
+}
+  
+.carrousel-flecha-left {
+    position: absolute;
+    left: 3%;
+    top: 70%;
+}
+  
+.carrousel-flecha-right {
+    position: absolute;
+    text-align: right;
+    right: 1%;
+    top: 70%;
+}
+
+
+.iconoDestacado {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    vertical-align: middle;
+    position: relative;
+    top: 0%;
+    left: 47.5%;
+    z-index: -5;
+}
+
+.descripcion {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+}
+
+#ultimosCampeones {
+    width: 100%;
+}
+
+.campeonesRecienteImagenes {
+    display: inline-block;
+    width: 40%;
+    margin-left: 6%;
+}
+
+.campeonesReciente {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    height: 250px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.campeonesReciente img{
+    width: 100%;
+    height: 80%;
+}
+
+.campeonDestacadoImagen {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 45%;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+.campeonDestacado img{
+    width: 100%;
+    height: 450px;
+}
+
+.campeonDestacado:hover figcaption{
+    transform: translateY(-100px);
+    height: 80px;
+    font-size: 25px;
+}
+
+figcaption {
+    border-top: 1px solid rgb(185, 185, 124);;
+    background-color: rgb(35, 35, 35);
+    color: rgb(185, 185, 124);
+    text-align: center;
+    padding: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;
+    font-size: 20px;
+    transition-property: transform height opacity;
+    transition-duration: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campeonesReciente:hover figcaption{
+    transform: translateY(-100px);
+    height: 80px;
+    font-size: 25px;
+}

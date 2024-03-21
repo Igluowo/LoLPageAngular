@@ -1,0 +1,30 @@
+<article class="UltimosCampeones" *ngFor="let seccion of destacado">
+    <img src={{seccion.icono}} alt="" class="iconoDestacado">
+    <h1>{{seccion.titulos}}</h1>
+    <div class="campeonesRecienteImagenes">
+        <ng-container *ngFor="let campeon of seccion.campeones[0].campeonesDestacados">
+            <ng-container *ngIf="!campeon.destacado">
+                <a href="html/IniciarSesion.html">
+                    <figure class="campeonesReciente">
+                            <img src={{campeon.imagen}} alt="">
+                            <figcaption>{{campeon.nombre}}</figcaption>
+                            <figcaption>Explorar</figcaption>
+                    </figure> 
+                </a>
+            </ng-container>
+        </ng-container>
+    </div>
+    <ng-container *ngFor="let campeon of seccion.campeones[0].campeonesDestacados">
+        <ng-container *ngIf="campeon.destacado">
+            <a href="html/IniciarSesion.html">
+                <div class="campeonDestacadoImagen">
+                    <figure class="campeonDestacado" >                           
+                        <img src={{campeon.imagen}} alt="">
+                        <figcaption>{{campeon.nombre}}</figcaption>
+                        <figcaption>Explorar</figcaption>
+                    </figure> 
+                </div>
+            </a>
+        </ng-container>
+    </ng-container>
+</article>

@@ -1,0 +1,17 @@
+<section>
+    <article class="Campeones">
+        <img src="assets/imagenes/icono_champion.png" alt="" id="iconoCampeon">
+        <h1>Campeones</h1>
+            <div class="campeonesRecienteImagenes">
+                <ng-container *ngFor="let campeon of campeonesDestacados">
+                        <a href="html/IniciarSesion.html">
+                            <figure class="campeonesReciente">
+                                    <img src={{campeon.imagen}} alt="">
+                                    <figcaption>{{campeon.nombre}}</figcaption>
+                                    <figcaption>Explorar</figcaption>
+                            </figure> 
+                        </a>
+                </ng-container>
+            </div>
+    </article>
+</section>

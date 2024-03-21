@@ -1,0 +1,15 @@
+<article class="Carrousel">
+    <img src="assets/imagenes/icono_champion.png" alt="" id="iconoCampeon">
+    <h1>Campeones Destacados</h1>
+    <div class="Destacado">
+        <a href="html/IniciarSesion.html">
+            <div class="imagenes">
+                <img [src]="images[currentIndex]" alt="Slide">
+            </div>    
+        </a>
+        <div class="flechas">
+            <a class="carrousel-flechas carrousel-flecha-left" (click)="prevSlide()"><img src="assets/imagenes/flecha-modified.png" alt=""></a>
+            <a class="carrousel-flechas carrousel-flecha-right" (click)="nextSlide()"><img src="assets/imagenes/flecha-derecha.png" alt=""></a>
+        </div>
+    </div>
+</article>
